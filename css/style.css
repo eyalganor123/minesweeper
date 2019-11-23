@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Slackey';
+}
+
+.board-container {
+    display: inline;
+    box-sizing: border-box;
+}
+
+td {
+    box-sizing: border-box;
+    width: 4vw;
+    height: 4vh;
+}
+
+
+.transparent {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.timer,
+.counter {
+    display: inline-block;
+    width: 10vw;
+    left: 400px;
+    color: red;
+    background-color: #888;
+    border: 1px solid white;
+}
+
+.game-container {
+    box-sizing: border-box;
+    position: fixed;
+    padding: 30px;
+    border: 10px groove white;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategrey;
+    cursor: pointer;
+    font-size: .5em;
+}
+
+.shown {
+    box-sizing: border-box;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 1em;
+    height: 1em;
+}
+
+.hidden {
+    box-sizing: border-box;
+    background-color: orange;
+    border: 10px ridge orange;
+    width: 1em;
+    height: 1em;
+}
+
+.hints {
+    position: fixed;
+    top: 2vh;
+    left: 85vw;
+    font-size: 6em;
+
+}
+
+.hinted {
+    border: 2px dotted rgb(0, 255, 42);
+}
+
+.modal {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    height: 100vh;
+    position: fixed;
+    top: 0vh;
+    border: 5px solid black
+}
+
+.level {
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(161, 43, 165);
+    background-color: lightblue;
+    line-height: 10vh;
+    border: 2px solid black;
+    font-size: 1.7em;
+}
+
+.level:hover {
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+}
+
+.welcome {
+    font-size: 2em;
+    color: orange;
+    margin-top: .1em;
+}
+
+.level-title {
+    margin: 1em;
+    color: red;
+    font-size: 1.4em;
+}
+
+.winLoose {
+    position: fixed;
+    top: 0;
+    /* left: 10vw; */
+    width: 100vw;
+    line-height: 100vh;
+    background-color: rgba(250, 251, 250, 0.459);
+    font-size: 10em;
+    color: rgb(241, 50, 200);
+}
+
+.bigCell {
+    box-sizing: border-box;
+    width: 15vw;
+    height: 15vh;
+    font-size: 8em;
+}
+
+.mediumCell {
+    box-sizing: border-box;
+    width: 8vw;
+    height: 8vh;
+    font-size: 3em;
+}
+
+.smallCell {
+    box-sizing: border-box;
+    width: 6vw;
+    height: 6vh;
+    font-size: 1.7em;
+}
+
+.display {
+    font-size: 2em;
+}
+
+.speaker {
+    position: fixed;
+
+    line-height: 1em;
+    z-index: 3;
+    font-size: .4em;
+    left: 5vw;
+    top: 3vh;
+}
+
+.timer-text {
+    display: inline;
+}
+
+.smiley {
+    font-size: 8em;
+}
